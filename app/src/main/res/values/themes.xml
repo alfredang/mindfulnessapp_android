@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App theme: a no-action-bar base. The dark-teal palette is applied in Compose (Theme.kt).
+         The status bar / window background uses the same deep teal as the app background. -->
+    <style name="Theme.Mindfulness" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/header</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

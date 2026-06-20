@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mirrors Theme.swift: header = rgb(0.18,0.48,0.60), background = rgb(0.04,0.14,0.18). -->
+    <color name="header">#2E7A99</color>
+    <color name="background">#0A242E</color>
+    <color name="ic_launcher_background">#0A242E</color>
+</resources>
