@@ -12,3 +12,8 @@
 keystore.properties
 *.keystore
 *.jks
+
+# Play Console automation working artifacts (throwaway)
+.playwright-mcp/
+play-*.png
+shot_*.png

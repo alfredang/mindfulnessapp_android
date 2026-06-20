@@ -9,6 +9,11 @@ This is a faithful native Android port of the iOS app
 [alfredang/mindfulnessapp](https://github.com/alfredang/mindfulnessapp) — same single screen,
 same guided narration, same dark-teal look.
 
+![Google Play](https://img.shields.io/badge/Google%20Play-In%20review-FBBC04?logo=googleplay&logoColor=white)
+
+> **Status:** submitted to the Google Play Console as **Tertiary Mindfulness**
+> (`com.alfredang.mindfulnesspractice`) — currently **in review** on the closed-testing track.
+
 ![Mindfulness — practice screen](screenshot.png)
 
 ## Tech Stack
@@ -81,9 +86,15 @@ keyPassword=********
 ```
 
 Build the bundle and upload `app/build/outputs/bundle/release/app-release.aab` to the
-**Google Play Console** (Internal testing → Production). Enrol the app in **Play App Signing** so
-Google manages the final app-signing key; you keep the upload key. See
-[`PLAY_STORE.md`](PLAY_STORE.md) for the full step-by-step submission checklist.
+**Google Play Console**. Enrol the app in **Play App Signing** so Google manages the final
+app-signing key; you keep the upload key. See [`PLAY_STORE.md`](PLAY_STORE.md) for the full
+step-by-step submission checklist.
+
+The store-listing assets used for the submission are committed at the repo root:
+`playstore-icon-512.png` (icon), `feature-graphic.png` (1024×500 feature graphic), and
+`store_shot_1.png` / `store_shot_2.png` (9:16 phone screenshots).
+
+![Feature graphic](feature-graphic.png)
 
 ## Acknowledgements
 

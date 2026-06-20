@@ -1,15 +1,22 @@
 # Play Store submission checklist
 
 This produces and submits the signed Android App Bundle for **Tertiary Mindfulness**
-(`com.alfredang.mindfulnesspractice`). The build is done; the upload requires *your* Google Play
-Console account (it cannot be automated without your Play developer credentials).
+(`com.alfredang.mindfulnesspractice`).
+
+> **Current status (Jun 20, 2026):** the app was created in the Google Play Console and the
+> closed-testing release **was submitted — Update status = "In review"** (typically up to 7 days).
+> All app-content declarations, the data-safety form, content rating, store listing, store
+> settings, countries, and tester lists (All Testers + Android reviewers) are complete. The steps
+> below document that flow for future updates. App status stays **"Draft"** until the first
+> release passes review and goes live — then it flips to **"Closed testing."**
 
 ## 0. What's already done in this repo
 
 - ✅ Signed **release AAB** built at `app/build/outputs/bundle/release/app-release.aab`
 - ✅ **Upload keystore** generated (`upload-keystore.jks`, gitignored) and wired via `keystore.properties`
 - ✅ **Adaptive launcher icon** (all densities) + **512×512 Play icon** (`playstore-icon-512.png`)
-- ✅ A phone **screenshot** (`screenshot.png`) you can use as a store listing screenshot
+- ✅ **Feature graphic** `feature-graphic.png` (1024×500) + **phone screenshots** `store_shot_1.png`, `store_shot_2.png` (9:16)
+- ✅ **Privacy policy** hosted at <https://alfredang.github.io/mindfulnessapp_android/privacy.html> (`docs/privacy.html`)
 
 > ⚠️ **Back up `upload-keystore.jks` and its passwords** somewhere safe. If you lose the upload key
 > you must contact Google to reset it. The passwords are in `keystore.properties` (gitignored).
